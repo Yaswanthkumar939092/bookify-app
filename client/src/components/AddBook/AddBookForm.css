@@ -1,0 +1,94 @@
+/* addbook.css */
+
+.add-book-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.add-book-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-book-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-details-button,
+.add-another-book-button,
+.add-book-button,
+.back-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.add-details-button {
+  background-color: #4285f4;
+}
+
+.add-another-book-button {
+  background-color: #fbbc05;
+  margin-top: 10px;
+}
+
+.add-book-button {
+  background-color: #34a853;
+  margin-top: 10px;
+}
+
+.back-button {
+  background-color: #777;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.response-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.response-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.response-data {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+/* Optional: Add your own custom styles, colors, animations, and backgrounds to make it more attractive */
