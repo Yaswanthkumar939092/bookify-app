@@ -13,25 +13,25 @@ export default function HomePage() {
       
       <ul className="homepage-actions">
         <li>
-          <Link to="/books" className="homepage-link">
+          <Link to="/books" className="homepage-link homepage-link-get">
             <span className="homepage-link-text">GET</span>
             <span className="homepage-link-description">View All Books</span>
           </Link>
         </li>
         <li>
-          <Link to="/books/new" className="homepage-link">
+          <Link to="/books/new" className="homepage-link homepage-link-post">
             <span className="homepage-link-text">POST</span>
             <span className="homepage-link-description">Add a New Book</span>
           </Link>
         </li>
         <li>
-          <Link to="/books/edit" className="homepage-link">
+          <Link to="/books/edit" className="homepage-link homepage-link-put">
             <span className="homepage-link-text">PUT</span>
             <span className="homepage-link-description">Edit a Book</span>
           </Link>
         </li>
         <li>
-          <Link to="/books/delete" className="homepage-link">
+          <Link to="/books/delete" className="homepage-link homepage-link-delete">
             <span className="homepage-link-text">DELETE</span>
             <span className="homepage-link-description">Delete a Book</span>
           </Link>
